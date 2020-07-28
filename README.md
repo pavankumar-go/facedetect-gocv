@@ -11,10 +11,15 @@
 ### Steps to Run 
 1. Clone the repo 
 2. Register in machine-box (https://machinebox.io)
-3. Get Machine-Box Access Key looks something like this `MB_KEY=xxxxxxxxxxx....`
+3. Get Machine-Box Access Key, looks something like this `MB_KEY=xxxxxxxxxxx....`
 4. Run MachineBox locally 
-    a. export your machine-box key `export MB_KEY="xxxxx...."`
-    b. run machinebox using docker `docker run -d -p 8080:8080 -e "MB_KEY=$MB_KEY" machinebox/facebox` remove `-d` if you dont want machine-box container to run in detached mode
+    *  export your machine-box key `export MB_KEY="xxxxx...."`
+    *  run machinebox using docker `docker run -d -p 8080:8080 -e "MB_KEY=$MB_KEY" machinebox/facebox` remove `-d` if you dont want machine-box container to run in detached mode
 5. Now check machinebox by hitting `http://localhost:8080`
 6. Upload your image for training under `Post a file` -> `Try it now`
 7. cd to `/your/directory/main.go` and `go run main.go` in your terminal
+
+### Useful links 
+1. https://github.com/opencv/opencv/tree/master/data/haarcascades
+2. https://gocv.io
+3. https://machinebox.io
