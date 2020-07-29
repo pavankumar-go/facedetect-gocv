@@ -1,7 +1,7 @@
 # Face Detection and Recognition Using GoCV
 ## A simple face detection and recognition program written in golang by making use of Haar feature based cascade classifier
 ### Requirements for Running it on Mac OS
-* Go lang - `version go1.13.6 darwin/amd64`
+* Go lang - `version go1.13.6 darwin/amd64` (https://golang.org/dl/)
 * Docker for Mac or Docker Desktop (https://docs.docker.com/docker-for-mac/install)
 * OpenCV 3 - `brew install opencv3`
 * Go Package Dependencies 
@@ -19,7 +19,7 @@
 6. Upload your image for training under `Post a file` -> `Try it now`
 7. cd to `/your/directory/main.go` and `go run main.go` in your terminal
 
-### Useful links 
-1. https://github.com/opencv/opencv/tree/master/data/haarcascades
+### Useful links for references
+1. https://github.com/opencv/opencv/tree/master/data/haarcascades  - Haar cascade classifier xml files
 2. https://gocv.io
 3. https://machinebox.io

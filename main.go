@@ -97,6 +97,6 @@ func main() {
 		}
 
 		window.IMShow(imgMat) // displays the face/image on screen
-		window.WaitKey(1)     // must be called for image processing
+		window.WaitKey(1)     // waits for 1 ms before showing next frame in video
 	}
 }
